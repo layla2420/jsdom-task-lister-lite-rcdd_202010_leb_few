@@ -11,5 +11,5 @@ let list= document.getElementById("tasks")
 
 function addTask{
   list.innerHTML=`<li>{newTask}<li>`
-  
+
 }
