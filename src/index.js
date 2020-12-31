@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
   form.addEventListener(submit,function(){
   addTask()
+  event.preventDefault()
   })
 });
 
