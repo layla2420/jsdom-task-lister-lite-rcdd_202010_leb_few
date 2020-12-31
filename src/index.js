@@ -15,6 +15,9 @@ function addTask(event){
   newTask.innerHTML=taskDiscription.value
 
 }
+appendNewTask(newTask);
+event.target.reset();
+};
 const appendNewTask = task => {
   let list= document.getElementById("tasks")
   list.appendChild(task);
